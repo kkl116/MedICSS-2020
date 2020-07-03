@@ -1,11 +1,6 @@
-# MedICSS-2020
-A Project at Medical Image Computing Summer School 
-
-# UCL Medical Image Computing Summer School (MedICSS)
-The [summer shool website](https://medicss.cs.ucl.ac.uk/)  
-6 – 10 July 2020, London, UK
-
 # Deep Learning for Medical Image Segmentation and Registration
+A Project at [UCL Medical Image Computing Summer School (MedICSS)](https://medicss.cs.ucl.ac.uk/), 6 – 10 July 2020, London, UK.
+
 ## Tutors:  
 Mon: Zac (zachary.baum.19@ucl.ac.uk)  
 Tue: Yipeng (yipeng.hu@ucl.ac.uk)  
