@@ -17,7 +17,7 @@ for filename in os.listdir(RESULT_PATH):
         image = np.load(os.path.join(DATA_PATH, "image_"+filename.split('_')[1]+".npy"))[::2, ::2, ::2]
         print(label.shape)
         plt.figure()
-        plt.title(filename)
+        plt.suptitle(filename)
         for idx in range(len(slices_to_plot)):
             axs = plt.subplot(len(slices_to_plot),2,idx*2+1)
             axs.imshow(image[slices_to_plot[idx],:,:], cmap='gray')
@@ -27,3 +27,6 @@ for filename in os.listdir(RESULT_PATH):
             axs.axis('off')
         plt.ion()
         plt.show()
+
+plt.pause(0.001)
+input("Press [enter] to continue.")
