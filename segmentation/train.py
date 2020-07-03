@@ -206,4 +206,3 @@ for step in range(total_iter):
         for idx in range(size_minibatch):
             np.save(os.path.join(RESULT_PATH, "label_test%02d_step%06d.npy" % (indices_test[idx], step)), pred_test[idx, ...])
         tf.print('Test results saved.')
-
