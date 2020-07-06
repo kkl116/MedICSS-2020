@@ -17,11 +17,11 @@ University College London 2020
 
 ### Create a conda virtual enviroment
 ```bash
-conda create -n medicss tensorflow matplotlib
+conda create -n medicss tensorflow==2.0 matplotlib
 ```
   If you have a gpu available:
 ```bash
-conda create -n medicss tensorflow-gpu matplotlib
+conda create -n medicss tensorflow-gpu==2.0 matplotlib
 ```
 
 ### Activate `medicss`
